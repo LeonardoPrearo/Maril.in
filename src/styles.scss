@@ -1,0 +1,11 @@
+@import "themes/header.scss";
+@import "themes/footer.scss";
+@import "themes/home.scss";
+@import "../node_modules/reset-css";
+@import "../node_modules/animate.css";
+@import "@coreui/coreui/scss/coreui";
+
+body{
+    height: 100vh;
+    background-color: (#9684A1);
+}

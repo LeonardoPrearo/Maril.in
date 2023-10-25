@@ -1,0 +1,18 @@
+.logo{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    div{
+        margin-top: 2rem;
+        a{  
+        font-family: 'Indie Flower', cursive;
+        text-decoration: none;
+        color: (#f6ae2d);
+        font-weight: 400;
+        font-size: 80px;
+        }   
+    }
+    
+}
