@@ -7,12 +7,14 @@ import { HeaderModule } from './core/header/header.module';
 import { HomeComponent } from './features/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import {HttpClientModule} from "@angular/common/http";
+import { FormComponent } from './shared/form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
